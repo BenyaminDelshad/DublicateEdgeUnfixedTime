@@ -1,0 +1,22 @@
+
+Original Diam: 103
+
+
+Method1 (dublicate each edge with new time max of inputs plus landa.): 
+New edge: 1 2 1 1
+New Diameter: 103
+
+
+Method2 (considering longest path from each node and dublicate last edge of each one with par plus landa.): 
+New edge: 2 3 102 1
+New Diameter: 103
+
+
+Method3 (like method 2 but dublicate all edges of each longest path.): 
+New edge: 0 1 0 1
+New Diameter: 51
+
+
+Method4 (like method 3 but use at most one edge for each pair of node(last one).): 
+New edge: 0 1 0 1
+New Diameter: 51
